@@ -4,7 +4,7 @@ See [Nested Named Entities, Nicky Ringland](https://ses.library.usyd.edu.au/hand
 
 The names of people, locations, and organisations play a central role in language, and named entity recognition (NER) has been widely studied, and successfully incorporated, into natural language processing (NLP) applications. The most common variant of NER involves identifying and classifying proper noun mentions of these and miscellaneous entities as linear spans in text.
 
-Unfortunately, this version of NER is no closer to a detailed treatment of named entities than chunking is to a full syntactic analysis. NER, so con- strued, reflects neither the syntactic nor semantic structure of NE mentions, and provides insufficient categorical distinctions to represent that structure.
+Unfortunately, this version of NER is no closer to a detailed treatment of named entities than chunking is to a full syntactic analysis. NER, so construed, reflects neither the syntactic nor semantic structure of NE mentions, and provides insufficient categorical distinctions to represent that structure.
 
 Representing this nested structure, where a mention may contain mention(s) of other entities, is critical for applications such as coreference resolution. The lack of this structure creates spurious ambiguity in the linear approximation.
 
@@ -12,9 +12,9 @@ Research in NER has been shaped by the size and detail of the available annotate
 
 This thesis presents our Nested Named Entity (NNE) corpus of named entities and numerical and temporal expressions, taken from the WSJ portion of the Penn Treebank (PTB, Marcus et al., 1993). We use the BBN Pronoun Coreference and Entity Type Corpus (Weischedel and Brunstein, 2005a) as our basis, manu- ally annotating it with a principled, fine-grained, nested annotation scheme and detailed annotation guidelines. The corpus comprises over 279,000 entities over 49,211 sentences (1,173,000 words), including 118,495 top-level entities.
 
-Our annotations were designed using twelve high-level principles that guided the development of the annotation scheme and difficult decisions for annotators. We also monitored the semantic grammar that was being induced during annotation, seeking to identify and reinforce common patterns to main- tain consistent, parsimonious annotations.
+Our annotations were designed using twelve high-level principles that guided the development of the annotation scheme and difficult decisions for annotators. We also monitored the semantic grammar that was being induced during annotation, seeking to identify and reinforce common patterns to maintain consistent, parsimonious annotations.
 
-The result is a scheme of 118 hierarchical fine-grained entity types and nesting rules, covering all capitalised mentions of entities, and numerical and temporal expressions. Unlike many corpora, we have developed detailed guidelines, including extensive discussion of the edge cases, in an ongoing dia- logue with our annotators which is critical for consistency and reproducibility.
+The result is a scheme of 118 hierarchical fine-grained entity types and nesting rules, covering all capitalised mentions of entities, and numerical and temporal expressions. Unlike many corpora, we have developed detailed guidelines, including extensive discussion of the edge cases, in an ongoing dialogue with our annotators which is critical for consistency and reproducibility.
 
 We annotated independently from the PTB bracketing, allowing annotators to choose spans which were inconsistent with the PTB conventions and errors, and only refer back to it to resolve genuine ambiguity consistently.
 
