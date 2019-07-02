@@ -20,6 +20,13 @@ NNP , VBN IN NNP NNP , VBZ CC VBZ JJ , NN CC NN NNS .
 ~~~~
 The first line is tokenized sentence, the second line is its corresponding POS tags, and the third line contain mention annotations.
 
+# Benchmark
+
+The system-output directory contains the output of our flat BiLSTM-CRF models which use either the outermost or the innermost mentions for training.
+
+paper-table.py is the script used to produce BiLSTM-CRF-BOTH (combine the outputs from these two flat models) result in Table 2 of our paper.
+
+
 ## Citing
 If you use this dataset, please cite
 ```bibtex
