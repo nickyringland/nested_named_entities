@@ -1,5 +1,5 @@
 # Create the dataset
-The recover_text.py file can be used to combine our annotations with the PTB corpus.
+The recover_text.py file can be used to combine our annotations with the PTB corpus (download from https://catalog.ldc.upenn.edu/LDC95T7).
 
 ~~~~
 mkdir Resources/with-text
