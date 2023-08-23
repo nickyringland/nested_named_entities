@@ -38,3 +38,6 @@ If you use this dataset, please cite
   address={Florence, Italy}
 }
 ```
+
+## License
+The resource in this folder is open-sourced under the CC BY license. See the LICENSE file for details.
